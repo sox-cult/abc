@@ -1,0 +1,30 @@
+{
+  "name":"sox-cult/abc",
+  "description":"数据库哈看到客户端",
+  "keywords":["abc"],
+  "homepage":"https://github.com/sox-cult/abc",
+  "type":"library",
+  "license":"BSD-3-Clause",
+  "authors":[
+    {
+      "name":"ghj",
+      "email":"1240937629@qq.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/sox-cult/abc"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0 <8.1",
+    "ext-json": "*"
+  },
+  "autoload":{
+    "psr-4": {
+      "abc\\": "src"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
