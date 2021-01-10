@@ -20,9 +20,7 @@
     "ext-json": "*"
   },
   "autoload":{
-    "psr-4": {
-      "abc\\": "src"
-    }
+    "classmap": ["src/"]
   },
   "config": {
     "process-timeout": 1800
